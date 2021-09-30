@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Cpano98/Web_app/issues"
   },
-  "homepage": "https://github.com/Cpano98/Web_app#readme"
+  "homepage": "https://github.com/Cpano98/Web_app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
