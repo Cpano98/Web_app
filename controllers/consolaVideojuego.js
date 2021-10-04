@@ -39,7 +39,7 @@ exports.postBorrarConsolaVideojuego = (req, res) => {
     console.log(req.body);
     ConsolaVideojuego.destroy({
         where: {
-            id: req.body.id
+            idCV: req.body.idCV
         }
     })
     .then(() => {
@@ -55,10 +55,10 @@ exports.postBorrarConsolaVideojuego = (req, res) => {
 exports.postActualizarConsolaVideojuego = (req, res) => {
     console.log(req.body);
     ConsolaVideojuego.update({
-        nombre: req.body.nombre
+        lanzamiento: req.body.lanzamiento
     }, {
         where: {
-            id: req.body.id
+            idCV: req.body.idCV
         }
     })
     .then(() => {
