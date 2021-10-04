@@ -1,28 +1,21 @@
 {
-  "name": "Web_app",
+  "name": "proyecto1",
   "version": "1.0.0",
-  "description": "Conexión base de Datos AWS",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cpano98/Web_app.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cpano98/Web_app/issues"
-  },
-  "homepage": "https://github.com/Cpano98/Web_app#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.12"
   }
 }
