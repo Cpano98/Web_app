@@ -1,6 +1,6 @@
 //Tabla intermedia
 const Sequelize = require('sequelize');
-const Videojuego = (sequelize)=>{
+const consolaVideojuego = (sequelize)=>{
     sequelize.define('consolaVideojuego',{
         idCV:{
             type: Sequelize.INTEGER, //Varchar(30)
@@ -10,4 +10,4 @@ const Videojuego = (sequelize)=>{
         lanzamiento: Sequelize.STRING
     })
 }
-module.exports= Videojuego
+module.exports= consolaVideojuego;

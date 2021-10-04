@@ -3,12 +3,11 @@ const conController = require('../controllers/consola')
 const router = express.Router()
 
 
-
 //Servicio para el procesamiento de los datos
 router.post('/agregarConsola',conController.postAgregarConsola);
 
 //Visualización de los datos guardados
-router.get('/obtenerConsola',conController.getObtenerVideojuegos);
+router.get('/obtenerConsolas',conController.getObtenerConsolas);
 //Delete
 router.post('/borrarConsola', conController.postBorrarConsola);
 //Update
