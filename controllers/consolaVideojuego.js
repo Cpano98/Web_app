@@ -54,9 +54,7 @@ exports.postBorrarConsolaVideojuego = (req, res) => {
 
 exports.postActualizarConsolaVideojuego = (req, res) => {
     console.log(req.body);
-    ConsolaVideojuego.update({
-        lanzamiento: req.body.lanzamiento
-    }, {
+    ConsolaVideojuego.update(req.body, {
         where: {
             idCV: req.body.idCV
         }
